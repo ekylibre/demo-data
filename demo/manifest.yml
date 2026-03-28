@@ -36,60 +36,60 @@ users:
     first_name: Michel                           # Prénom
     last_name: DURAND                            # Nom de famille
     password: 12345678                           # Mot de passe
-chart_of_account: fr_pcga                        # Code plan comptable
+chart_of_account: fr_pcga2023                        # Code plan comptable
 financial_years:
   EX2016:                                        # Code d'un exercice comptable
     started_on: 2016-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2016-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
   EX2017:                                        # Code d'un exercice comptable
     started_on: 2017-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2017-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                     # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
   EX2018:                                        # Code d'un exercice comptable
     started_on: 2018-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2018-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
   EX2019:                                        # Code d'un exercice comptable
     started_on: 2019-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2019-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
   EX2020:                                        # Code d'un exercice comptable
     started_on: 2020-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2020-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
   EX2021:                                        # Code d'un exercice comptable
     started_on: 2021-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2021-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
   EX2022:                                        # Code d'un exercice comptable
     started_on: 2022-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2022-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
   EX2023:                                        # Code d'un exercice comptable
     started_on: 2023-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2023-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
   EX2024:                                        # Code d'un exercice comptable
     started_on: 2024-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
     stopped_on: 2024-12-31
-    accounting_system: fr_pcga
+    accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
     currency: EUR
 journals:
