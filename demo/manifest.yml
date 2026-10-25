@@ -4,11 +4,13 @@ currency: EUR                                    # Code monnaie
 country: fr                                      # Code pays
 language: fra                                    # Code langue
 map_measure_srid: 2154                           # Code référentiel spatial
-host: demo.ekylibre.farm
+host: demo.ekylibre-dev.com
 sales_conditions: "Une indemnité forfaitaire de 40 € sera réclamée pour frais de recouvrement, en cas de retard de paiement" 		# Conditions de vente par défaut
 demo: true                                       # Mode démo (oui/non)
 create_activities_from_telepac: true             # Création des activités uniquement à partir des fichiers TELEPAC
 permanent_stock_inventory: false
+# subscription_id / customer_id — Stripe SAASY ids are environment-specific:
+# load them via ENV['STRIPE_SUBSCRIPTION_ID'] / ENV['STRIPE_CUSTOMER_ID'].
 weather_public_station: "FR17308001"
 company:
   last_name: GAEC JOULIN                         # Nom
@@ -91,6 +93,18 @@ financial_years:
     stopped_on: 2024-12-31
     accounting_system: fr_pcga2023
     already_existing: true                      # Fin d'un exercice comptable (format AAAA-MM-JJ)
+    currency: EUR
+  EX2025:                                        # Code d'un exercice comptable
+    started_on: 2025-01-01                       # Début d'un exercice comptable (format AAAA-MM-JJ)
+    stopped_on: 2025-12-31
+    accounting_system: fr_pcga2023
+    already_existing: true                      # Exercice clôturé lors du passage sur Ekylibre
+    currency: EUR
+  EX2026:                                        # Exercice courant (ouvert)
+    started_on: 2026-01-01                       # Début de l'exercice courant
+    stopped_on: 2026-12-31
+    accounting_system: fr_pcga2023
+    already_existing: true                      # Reste state=opened (défaut) sans déclencher :can_only_have_two_years_opened
     currency: EUR
 journals:
   21:
@@ -236,6 +250,9 @@ net_services:                                    # Services en ligne
     cartodb_login: demo-ekylibre
     password: 000000
 identifiers:                                     # Identifiants
+  # External API keys (openweathermap, groq, mistral, agromonitoring) are
+  # loaded from ENV['OPENWEATHERMAP_API_KEY'], ENV['GROQ_API_KEY'],
+  # ENV['MISTRAL_API_KEY'], ENV['AGROMONITORING_API_KEY'] if present.
   pacage_number: 12346578                        # Nom et valeur d'un identifiant
   husbandry_owner_number: FR01700006989
   cattling_root_number: 173513

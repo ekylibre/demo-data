@@ -11,3 +11,39 @@ Date,Tiers,Reference,(outgoing payment mode name),Prix payé TTC,date paiement s
 2019-01-31,Antoine JOULIN,SALAIRE_AJ_01_2019,virement,"1291,12",,,employee
 2019-02-27,Antoine JOULIN,SALAIRE_AJ_02_2019,virement,"1291,12",,,employee
 2019-03-31,Antoine JOULIN,SALAIRE_AJ_03_2019,virement,"1291,12",,,employee
+2024-01-31,TERRILACTI,202401502660,cc_cooptl,"21,92",,,supplier
+2024-02-28,TERRILACTI,202402502660,cc_cooptl,"19,92",,,supplier
+2024-03-31,TERRILACTI,202403502660,cc_cooptl,"28,95",,,supplier
+2024-04-30,TERRILACTI,202404502660,cc_cooptl,"33,65",,,supplier
+2024-05-31,TERRILACTI,202405502660,cc_cooptl,"35,5",,,supplier
+2024-06-30,TERRILACTI,202406502660,cc_cooptl,25,,,supplier
+2024-07-31,TERRILACTI,202407502660,cc_cooptl,"20,21",,,supplier
+2024-08-31,TERRILACTI,202408502660,cc_cooptl,"27,32",,,supplier
+2024-09-30,TERRILACTI,202409502660,cc_cooptl,"30,01",,,supplier
+2024-01-31,Antoine JOULIN,SALAIRE_AJ_01_2019,virement,"1291,12",,,employee
+2024-02-27,Antoine JOULIN,SALAIRE_AJ_02_2019,virement,"1291,12",,,employee
+2024-03-31,Antoine JOULIN,SALAIRE_AJ_03_2019,virement,"1291,12",,,employee
+2025-01-31,TERRILACTI,202501502660,cc_cooptl,"21,92",,,supplier
+2025-02-28,TERRILACTI,202502502660,cc_cooptl,"19,92",,,supplier
+2025-03-31,TERRILACTI,202503502660,cc_cooptl,"28,95",,,supplier
+2025-04-30,TERRILACTI,202504502660,cc_cooptl,"33,65",,,supplier
+2025-05-31,TERRILACTI,202505502660,cc_cooptl,"35,5",,,supplier
+2025-06-30,TERRILACTI,202506502660,cc_cooptl,25,,,supplier
+2025-07-31,TERRILACTI,202507502660,cc_cooptl,"20,21",,,supplier
+2025-08-31,TERRILACTI,202508502660,cc_cooptl,"27,32",,,supplier
+2025-09-30,TERRILACTI,202509502660,cc_cooptl,"30,01",,,supplier
+2025-01-31,Antoine JOULIN,SALAIRE_AJ_01_2019,virement,"1291,12",,,employee
+2025-02-27,Antoine JOULIN,SALAIRE_AJ_02_2019,virement,"1291,12",,,employee
+2025-03-31,Antoine JOULIN,SALAIRE_AJ_03_2019,virement,"1291,12",,,employee
+2026-01-31,TERRILACTI,202601502660,cc_cooptl,"21,92",,,supplier
+2026-02-28,TERRILACTI,202602502660,cc_cooptl,"19,92",,,supplier
+2026-03-31,TERRILACTI,202603502660,cc_cooptl,"28,95",,,supplier
+2026-04-30,TERRILACTI,202604502660,cc_cooptl,"33,65",,,supplier
+2026-05-31,TERRILACTI,202605502660,cc_cooptl,"35,5",,,supplier
+2026-06-30,TERRILACTI,202606502660,cc_cooptl,25,,,supplier
+2026-07-31,TERRILACTI,202607502660,cc_cooptl,"20,21",,,supplier
+2026-08-31,TERRILACTI,202608502660,cc_cooptl,"27,32",,,supplier
+2026-09-30,TERRILACTI,202609502660,cc_cooptl,"30,01",,,supplier
+2026-01-31,Antoine JOULIN,SALAIRE_AJ_01_2019,virement,"1291,12",,,employee
+2026-02-27,Antoine JOULIN,SALAIRE_AJ_02_2019,virement,"1291,12",,,employee
+2026-03-31,Antoine JOULIN,SALAIRE_AJ_03_2019,virement,"1291,12",,,employee
